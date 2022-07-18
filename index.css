@@ -35,13 +35,11 @@ body {
 .invite-button img {
     max-width: 20%;
     height: auto;
-    padding-top: 20%;
+    margin-top: 20%;
 }
 
 .invite-button img:hover {
     max-width: 22%;
-    height: auto;
-    padding-top: 20%;
     transition-duration: 0.2s;
 }
 
@@ -81,7 +79,7 @@ body {
 
     .invite-button img {
         max-width: 40%;
-        padding-top: 10%;
+        margin-top: 10%;
     }
 
   }
