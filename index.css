@@ -36,11 +36,11 @@ body {
     max-width: 20%;
     height: auto;
     margin-top: 20%;
+    transition: 0.2s;
 }
 
 .invite-button img:hover {
     max-width: 22%;
-    transition-duration: 0.2s;
 }
 
 @media only screen and (max-width: 768px) {
