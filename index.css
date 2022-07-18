@@ -82,4 +82,8 @@ body {
         margin-top: 10%;
     }
 
+    .invite-button img:hover {
+        max-width: 45%;
+    }
+
   }
