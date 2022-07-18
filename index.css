@@ -2,6 +2,7 @@ body {
     height: 100%;
     background: linear-gradient(90deg, #F5C400 50%, #7289da 50%);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -43,12 +44,10 @@ body {
     max-width: 22%;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For phones: */
+@media only screen and (orientation: portrait) and (max-width: 768px) {
 
     body {
         background: linear-gradient(0deg, #F5C400 50%, #7289da 50%) fixed no-repeat;
-        margin: 0px;
     }
     html {
         height: 100%;
@@ -87,3 +86,28 @@ body {
     }
 
   }
+
+@media only screen and (orientation: landscape) and (max-device-width : 1223px) {
+
+    .guilded {
+        padding: 10px;
+    }
+    
+    .discord {
+        padding: 10px;
+    }
+
+    .brand-logo {
+        max-width: 60%;
+    }
+
+    .invite-button img {
+        max-width: 40%;
+        margin-top: 5%;
+    }
+
+    .invite-button img:hover {
+        max-width: 42%;
+    }
+
+}
