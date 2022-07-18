@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #F5C400 50%, #7289da 50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container h2{
+    color: white;
+}
+
+.guilded {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+
+.discord {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+
+.brand-logo {
+    max-width: 30%;
+    height: auto;
+}
+
+.invite-button img {
+    max-width: 20%;
+    height: auto;
+    padding-top: 20%;
+}
+
+.invite-button img:hover {
+    max-width: 22%;
+    height: auto;
+    padding-top: 20%;
+    transition-duration: 0.2s;
+}
