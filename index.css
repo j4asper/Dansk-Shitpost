@@ -44,3 +44,44 @@ body {
     padding-top: 20%;
     transition-duration: 0.2s;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For phones: */
+
+    body {
+        background: linear-gradient(0deg, #F5C400 50%, #7289da 50%) fixed no-repeat;
+        margin: 0px;
+    }
+    html {
+        height: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .guilded {
+        flex: 1;
+        height: 50%;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .discord {
+        flex: 1;
+        height: 50%;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .brand-logo {
+        max-width: 50%;
+    }
+
+    .invite-button img {
+        max-width: 40%;
+        padding-top: 10%;
+    }
+
+  }
